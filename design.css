@@ -142,15 +142,7 @@
 	color: #d1a276 ;
     background-color: #0A161B;
 }
-.divider {
-	position:relative;
-	border-top:  1px solid red;
-	border-bottom: 1px solid red;
-	line-height: 1px;
-	font-weight: bold;
-	background-color: yellow;
-	
-}
+
 
 #rect{
 	background-color: #d1a276;

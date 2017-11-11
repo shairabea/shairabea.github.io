@@ -189,8 +189,9 @@ body {
 	margin: auto;
 	width: 100%;
 	margin-bottom: 50px;
+	display: inline-block;
+	z-index: -1;
 	position: relative;
-    z-index: 99;
 }
 
 .srvc{
@@ -199,8 +200,7 @@ body {
 	float:left; /* important */
 	position:relative; /* important(so we can absolutely position the description div */
 	font-family:"Century Gothic";
-	display: inline-block;
-	z-index: -1;
+	
 }
 div.srvcImg{
 	position:absolute; 
@@ -212,9 +212,7 @@ div.srvcImg{
 	color:#d1a276;
 	opacity:0.9; /* transparency */
 	font-family:"Century Gothic";
-	display: inline-block;
-	position: relative;
-    z-index: 99;
+	
 	
 }
 p.srvcText{

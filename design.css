@@ -1,0 +1,173 @@
+/* Style The Dropdown Button */
+.homeButton {
+	background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+}
+
+.servicebtn {
+    background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.menubtn {
+    background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.abtButton {
+	background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+}
+
+.contactButton {
+	background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.home{
+	position: absolute;
+    display: inline-block;
+}
+
+.services {
+    position: absolute;
+    display: inline-block;
+	margin-left: 80px;
+}
+
+.menu {
+    position: absolute;
+    display: inline-block;
+	margin-left: 178px;
+}
+
+.about{
+	position: absolute;
+    display: inline-block;
+	margin-left: 255px;
+}
+
+.contact{
+	position: absolute;
+    display: inline-block;
+	margin-left: 358px;
+}
+
+.nav{
+	margin-top: -133px;
+	margin-left: 550px;
+}
+
+.logo{
+	width: 150px;
+	margin-top: 32px;
+	margin-left: 380px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.services-content {
+
+    display: none;
+    position: 270px;
+    background-color: #4f5c5a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu-content {
+    display: none;
+    position: 200px;
+    background-color: #4f5c5a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.services-content a {
+    color: #d1a276 ;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-content a {
+    color: #d1a276 ;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.services-content a:hover {background-color: #0A161B}
+.menu-content a:hover {background-color: #0A161B}
+/* Show the dropdown menu on hover */
+.services:hover .services-content {
+    display: block;
+}
+.menu:hover .menu-content {
+    display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.services:hover .servicebtn {
+    color: #d1a276 ;
+    background-color: #0A161B;
+}
+.menu:hover .menubtn {
+    color: #d1a276 ;
+    background-color: #0A161B;
+}
+
+.homeButton:hover, .abtButton:hover, .contactButton:hover {
+	color: #d1a276 ;
+    background-color: #0A161B;
+}
+.divider {
+	position:relative;
+	border-top:  1px solid red;
+	border-bottom: 1px solid red;
+	line-height: 1px;
+	font-weight: bold;
+	background-color: yellow;
+	
+}
+
+#rect{
+	background-color: #d1a276;
+	width:1400px;
+	height: 200px;
+	margin-top: -20px;
+	margin-left: -20px;
+	z-index: 999;
+    position: relative;
+}
+#carouselExampleIndicators{
+    position: relative;
+    z-index: 99;
+}
+
+body {
+	margin-top: -20px;
+	margin-top: -20px;
+}
+

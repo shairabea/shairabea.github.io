@@ -119,7 +119,7 @@
     display: block;
 }
 /* Change color of dropdown links on hover */
-.sersvices-content a:hover {background-color: #0A161B}
+.services-content a:hover {background-color: #0A161B}
 .menu-content a:hover {background-color: #0A161B}
 /* Show the dropdown menu on hover */
 .services:hover .services-content {
@@ -152,7 +152,7 @@
 	
 }
 
-.rect{
+#rect{
 	background-color: #d1a276;
 	width:1400px;
 	height: 200px;

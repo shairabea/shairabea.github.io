@@ -182,13 +182,7 @@
 	
 }}
 
-body {
-	background-color: #4f5c5a;
-	margin-top: -20px;
-	margin-top: -20px;
-	font-family: "Century Gothic", sans-serif;
-	
-}
+
 
 #sandwiches-drinks1{
 	font-size: 50px;
@@ -401,4 +395,12 @@ body {
 
 .move-content{
 	margin-left: 200px;
+}
+
+body {
+	background-color: #4f5c5a;
+	margin-top: -20px;
+	margin-top: -20px;
+	font-family: "Century Gothic", sans-serif;
+	
 }

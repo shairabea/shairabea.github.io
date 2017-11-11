@@ -200,6 +200,7 @@ body {
 	position:relative; /* important(so we can absolutely position the description div */
 	font-family:"Century Gothic";
 	display: inline-block;
+	z-index: -1;
 }
 div.srvcImg{
 	position:absolute; 

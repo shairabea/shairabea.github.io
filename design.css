@@ -119,7 +119,7 @@
     display: block;
 }
 /* Change color of dropdown links on hover */
-.services-content a:hover {background-color: #0A161B}
+.sersvices-content a:hover {background-color: #0A161B}
 .menu-content a:hover {background-color: #0A161B}
 /* Show the dropdown menu on hover */
 .services:hover .services-content {

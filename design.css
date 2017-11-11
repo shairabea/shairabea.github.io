@@ -156,6 +156,7 @@
 
 .menu:hover .menu-link{
 	color: #d1a276;
+	text-decoration: none;
 }
 
 .homeButton:hover, .abtButton:hover, .contactButton:hover, .menu-link:hover{

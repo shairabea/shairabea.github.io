@@ -136,6 +136,15 @@
 .menu:hover .menubtn {
     color: #d1a276 ;
     background-color: #0A161B;
+<<<<<<< HEAD
+=======
+	
+}
+
+.menu:hover .menu-link{
+	color: #d1a276;
+	text-decoration: none;
+>>>>>>> parent of 543f1a6... 1
 }
 
 .homeButton:hover, .abtButton:hover, .contactButton:hover {

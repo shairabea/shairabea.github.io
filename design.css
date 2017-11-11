@@ -112,6 +112,21 @@
     display: block;
 }
 
+.menubtn {
+	 color: #4f5c5a;
+    text-decoration: none;
+    display: block;
+	
+
+}
+
+.menu-link{
+	 color: #4f5c5a;
+    text-decoration: none;
+    display: block;
+	
+	
+}
 .menu-content a {
     color: #d1a276 ;
     padding: 12px 16px;
@@ -136,11 +151,17 @@
 .menu:hover .menubtn {
     color: #d1a276 ;
     background-color: #0A161B;
+	
 }
 
-.homeButton:hover, .abtButton:hover, .contactButton:hover {
+.menu:hover .menu-link{
+	color: #d1a276;
+}
+
+.homeButton:hover, .abtButton:hover, .contactButton:hover, .menu-link:hover{
 	color: #d1a276 ;
     background-color: #0A161B;
+
 }
 .divider {
 	position:relative;
@@ -152,18 +173,13 @@
 	
 }
 
-#rect{
+.rect{
 	background-color: #d1a276;
-	width:1400px;
+	width:1378px;
 	height: 200px;
 	margin-top: -20px;
 	margin-left: -20px;
-	z-index: 999;
-    position: relative;
-}
-#carouselExampleIndicators{
-    position: relative;
-    z-index: 99;
+	
 }
 
 body {

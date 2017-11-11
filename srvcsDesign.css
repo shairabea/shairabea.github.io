@@ -1,0 +1,239 @@
+/* Style The Dropdown Button */
+.homeButton {
+	background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+	font-family:"Century Gothic";
+}
+
+.servicebtn {
+    background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	font-family:"Century Gothic";
+}
+
+
+.menubtn {
+    background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	font-family:"Century Gothic";
+}
+
+.abtButton {
+	background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+	font-family:"Century Gothic";
+}
+
+.contactButton {
+	background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+	font-family:"Century Gothic";
+}
+/* The container <div> - needed to position the dropdown content */
+.home{
+	position: absolute;
+    display: inline-block;
+	font-family:"Century Gothic";
+}
+
+.services {
+    position: absolute;
+    display: inline-block;
+	margin-left: 80px;
+	font-family:"Century Gothic";
+}
+
+.menu {
+    position: absolute;
+    display: inline-block;
+	margin-left: 178px;
+	font-family:"Century Gothic";
+}
+
+.about{
+	position: absolute;
+    display: inline-block;
+	margin-left: 255px;
+	font-family:"Century Gothic";
+}
+
+.contact{
+	position: absolute;
+    display: inline-block;
+	margin-left: 358px;
+	font-family:"Century Gothic";
+}
+
+.nav{
+	margin-top: -133px;
+	margin-left: 550px;
+	font-family:"Century Gothic";
+}
+
+.logo{
+	width: 150px;
+	margin-top: 32px;
+	margin-left: 380px;
+	font-family:"Century Gothic";
+}
+
+/* Dropdown Content (Hidden by Default) */
+.services-content {
+
+    display: none;
+    position: 270px;
+    background-color: #4f5c5a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	font-family:"Century Gothic";
+}
+
+.menu-content {
+    display: none;
+    position: 200px;
+    background-color: #4f5c5a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	font-family:"Century Gothic";
+}
+/* Links inside the dropdown */
+.services-content a {
+    color: #d1a276 ;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family:"Century Gothic";
+}
+
+.menu-content a {
+    color: #d1a276 ;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family:"Century Gothic";
+}
+/* Change color of dropdown links on hover */
+.services-content a:hover {background-color: #0A161B}
+.menu-content a:hover {background-color: #0A161B}
+/* Show the dropdown menu on hover */
+.services:hover .services-content {
+    display: block;
+}
+.menu:hover .menu-content {
+    display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.services:hover .servicebtn {
+    color: #d1a276 ;
+    background-color: #0A161B;
+}
+.menu:hover .menubtn {
+    color: #d1a276 ;
+    background-color: #0A161B;
+}
+
+.homeButton:hover, .abtButton:hover, .contactButton:hover {
+	color: #d1a276 ;
+    background-color: #0A161B;
+}
+.divider {
+	position:relative;
+	border-top:  1px solid red;
+	border-bottom: 1px solid red;
+	line-height: 1px;
+	font-weight: bold;
+	background-color: yellow;
+	
+}
+
+.rect{
+	background-color: #d1a276;
+	width:1400px;
+	height: 200px;
+	margin-top: -20px;
+	margin-left: -20px;
+	
+}
+
+body {
+	margin-top: -20px;
+	margin-top: -20px;
+	background-color: #0a161b;
+	font-family:"Century Gothic";
+}
+
+#srvcImg{
+	display: block;
+	margin: auto;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+div.srvc{
+	margin-top: 90px;
+	margin-bottom: 50px;
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+	font-family:"Century Gothic";
+}
+div.srvcImg{
+	position:absolute; 
+	bottom:50%; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	background-color:#0a161b;
+	text-align:center;
+	color:#d1a276;
+	opacity:0.9; /* transparency */
+	font-family:"Century Gothic";
+	display: inline-block;
+	
+}
+p.srvcText{
+	padding:10px;
+	margin:0px;
+	font-size: 50px;
+	font-family:"Century Gothic";
+}
+
+p.srvcTextSmall{
+	padding:10px;
+	margin:0px;
+	font-size: 16px;
+	color: #cc6a3e;
+	font-family:"Century Gothic";
+}
+
+p.srvcDesc{
+	display: block;
+	margin: auto;
+	width: 550px;
+	text-align: center;
+	color: #cc6a3e;
+	font-style:italic;
+	font-size: 20px;
+	margin-bottom: -60px;
+	font-family:"Century Gothic";
+}

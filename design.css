@@ -1,10 +1,4 @@
 /* Style The Dropdown Button */
-
-html, body{
-	margin:0;
-	padding:0;
-
-}
 .homeButton {
 	background-color: #d1a276;
     color: #4f5c5a;
@@ -160,8 +154,8 @@ html, body{
 
 .rect{
 	background-color: #d1a276;
-	width:100%;
-	height: auto;
+	width:1400px;
+	height: 200px;
 	margin-top: -20px;
 	margin-left: -20px;
 	z-index: 999;

@@ -212,6 +212,7 @@ div.srvcImg{
 	color:#d1a276;
 	opacity:0.9; /* transparency */
 	font-family:"Century Gothic";
+	display: inline-block;
 	
 	
 }

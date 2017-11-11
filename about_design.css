@@ -1,0 +1,278 @@
+/* Style The Dropdown Button */
+.homeButton {
+	background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+}
+
+.servicebtn {
+    background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.menubtn {
+    background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.abtButton {
+	background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+}
+
+.contactButton {
+	background-color: #d1a276;
+    color: #4f5c5a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.home{
+	position: absolute;
+    display: inline-block;
+}
+
+.services {
+    position: absolute;
+    display: inline-block;
+	margin-left: 80px;
+}
+
+.menu {
+    position: absolute;
+    display: inline-block;
+	margin-left: 178px;
+}
+
+.about{
+	position: absolute;
+    display: inline-block;
+	margin-left: 255px;
+}
+
+.contact{
+	position: absolute;
+    display: inline-block;
+	margin-left: 358px;
+}
+
+.nav{
+	margin-top: -133px;
+	margin-left: 550px;
+}
+
+.logo{
+	width: 150px;
+	margin-top: 32px;
+	margin-left: 380px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.services-content {
+
+    display: none;
+    position: 270px;
+    background-color: #4f5c5a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu-content {
+    display: none;
+    position: 200px;
+    background-color: #4f5c5a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.services-content a {
+    color: #d1a276 ;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-content a {
+    color: #d1a276 ;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.services-content a:hover {background-color: #0A161B}
+.menu-content a:hover {background-color: #0A161B}
+/* Show the dropdown menu on hover */
+.services:hover .services-content {
+    display: block;
+}
+.menu:hover .menu-content {
+    display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.services:hover .servicebtn {
+    color: #d1a276 ;
+    background-color: #0A161B;
+}
+.menu:hover .menubtn {
+    color: #d1a276 ;
+    background-color: #0A161B;
+}
+
+.homeButton:hover, .abtButton:hover, .contactButton:hover {
+	color: #d1a276 ;
+    background-color: #0A161B;
+}
+.divider {
+	position:relative;
+	border-top:  1px solid red;
+	border-bottom: 1px solid red;
+	line-height: 1px;
+	font-weight: bold;
+	background-color: yellow;
+	
+}
+
+.rect{
+	background-color: #d1a276;
+	width: 1531px;
+	height: 200px;
+	margin-top: -20px;
+	margin-left: -20px;
+	
+}
+
+body {
+	margin-top: -20px;
+	margin-top: -20px;
+	background-color: #0a161b;
+}
+
+p{
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.txt1{
+	margin-top: -850px;
+	margin-left: 660px;
+}
+
+.txt2{
+	margin-top: -670px;
+	margin-left: 420px;
+	transform: scale(1, 2);
+}
+
+#cCafe{
+	font-family: "Century Gothic", Gadget, sans-serif;
+	color: #0a161b;
+	letter-spacing: 10px;
+	font-size: 20px;
+}
+
+#aboutus{
+	font-family: "Century Gothic", Gadget, sans-serif;
+	color: #0a161b;
+	padding-left: 5px;
+	letter-spacing: 5px;
+	font-size: 28px;
+	display: inline-block;
+	font-size: 32px;
+	transform: scale(1, 2);
+}
+
+#desc1{
+	font-family: "Century Gothic", Gadget, sans-serif;
+	color: #d1a276;
+	font-size: 17px;
+	transform: scale(1, .9);
+}
+.rect2{
+	margin-left: 170px;
+	margin-top: 60px;
+}
+
+#rekt{
+	width: 1150px;
+	height: 800px;	
+}
+
+.photo1{
+	margin-left: 240px;
+	margin-top: 170px;
+}
+
+.photo2{
+	margin-left: 450px;
+	margin-top: -155px;
+}
+.photo3{
+	margin-left: 660px;
+	margin-top: -155px;
+}
+.photo4{
+	margin-left: 870px;
+	margin-top: -155px;
+}
+.photo5{
+	margin-left: 1080px;
+	margin-top: -155px;
+}
+#ph1{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+#all{
+	margin-left: 10px;
+}
+
+#names{
+	font-family: "Century Gothic", Gadget, sans-serif;
+	color: #d1a276;
+	font-size: 17px;
+}
+
+#name1{
+	margin-left: 275px;
+	margin-top: 20px;
+}
+
+#name2{
+	margin-left: 480px;
+	margin-top: -22px;
+}
+
+#name3{
+	margin-left: 685px;
+	margin-top: -22px;
+}
+
+#name4{
+	margin-left: 915px;
+	margin-top: -22px;
+}
+
+#name5{
+	margin-left: 1120px;
+	margin-top: -22px;
+}

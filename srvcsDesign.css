@@ -200,7 +200,11 @@ body {
 	float:left; /* important */
 	position:relative; /* important(so we can absolutely position the description div */
 	font-family:"Century Gothic";
+<<<<<<< HEAD
 	
+=======
+	display: inline-block;
+>>>>>>> parent of 5eadd98... ser
 }
 div.srvcImg{
 	position:absolute; 
